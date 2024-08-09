@@ -29,5 +29,8 @@ dependencies {
     //html parser
     implementation(libs.jsoup)
 
-    implementation("androidx.core:core-splashscreen:1.0.0")
+    implementation(libs.androidx.core.splashscreen)
+
+    //leakcanary
+    debugImplementation(libs.leakcanary.android)
 }
